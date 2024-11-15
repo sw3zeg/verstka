@@ -1,0 +1,164 @@
+
+<svg  xmlns="http://www.w3.org/2000/svg"
+      viewBox="5 0 50 55"
+>
+<!--    Внешний контур-->
+    <path
+            d="
+            M 9 5
+            Q 10 0 15 0
+            L 45 0
+            Q 48 0 50 5
+            L 53 15
+            Q 55 25 55 35
+            L 55 45
+            Q 55 55 45 55
+            L 15 55
+            Q 5 55 5 45
+            L 5 35
+            Q 5 25 7 15
+            Z
+            "
+            fill="none"
+            stroke="black"
+            stroke-width="1.5"
+    />
+
+
+<!--Внутренний контур-->
+    <path
+            d="
+            M 13 0
+            L 13 35
+            Q 13 40 20 40
+            L 38 40
+            Q 45 40 45 35
+            L 45 0
+            Z
+            "
+            fill="none"
+            stroke="black"
+            stroke-width="1"
+    />
+
+<!--Левая C-->
+    <path
+            d="
+            M 24 5
+            Q 17 3 17 10
+            Q 17 20 25 17
+
+            "
+            fill="none"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+    />
+
+<!--Правая C-->
+    <path
+            d="
+            M 39 15
+            Q 32 13 32 20
+            Q 32 30 40 27
+
+            "
+            fill="none"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+    />
+
+<!--Линии-->
+    <path
+            d="
+            M 12 48
+            Q 12 46 14 43
+            Q 15 41 20 41
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 10 52
+            L 24 40
+            L 29 40
+            L 15 52
+            Q 13 54 10 52
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 10 52
+            L 24 40
+            L 29 40
+            L 15 52
+            Q 13 54 10 52
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 15 55
+            L 32 40
+            L 37 40
+            L 20 55
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 25 55
+            L 41 41
+            Q 44 40 46 41
+            L 30 55
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 35 55
+            L 45 45
+            Q 47 45 47 47
+            L 47 47
+            L 39 55
+            Z
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+    <path
+            d="
+            M 42 55
+            L 45 52
+            Q 49 53 45 55
+            "
+            fill="black"
+            stroke="black"
+            stroke-width=".1"
+    />
+
+</svg>

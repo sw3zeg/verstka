@@ -1,0 +1,217 @@
+.content1{
+    width: 60vw;
+    height: 74vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    position: relative;
+
+}
+
+/*==================================================*/
+/*==================================================*/
+/*==================================================*/
+/*Буква А при наведении*/
+
+.svg-a{
+    position: absolute;
+    bottom: 1px;
+    right: 65px;
+    overflow: visible;
+}
+
+.container1:hover .svg-a{
+    animation: a-move 0.7s linear forwards;
+}
+
+@keyframes a-move {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(40px, -30px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(-23px, -60px);
+        opacity: 1;
+    }
+}
+
+/*==================================================*/
+/*==================================================*/
+/*==================================================*/
+/*Буква П при наведении*/
+
+.svg-p{
+    position: absolute;
+    bottom: 0;
+    left: 65px;
+    overflow: visible;
+}
+
+.container1:hover .svg-p{
+    animation: p-move 0.7s linear forwards;
+}
+
+@keyframes p-move {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-40px, -50px);
+
+
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(23px, -100px);
+        opacity: 1;
+    }
+}
+
+/*==================================================*/
+/*==================================================*/
+/*==================================================*/
+
+
+/*==================================================*/
+/*==================================================*/
+/*==================================================*/
+/*Круги у букв*/
+
+.circle {
+    opacity: 0;
+}
+
+.container1:active .circle {
+    opacity: 1;
+}
+
+/*==================================================*/
+/*==================================================*/
+/*Буква П при клике*/
+
+.container1:active .svg-p{
+    animation: p-clicked 2.5s ease-in-out forwards;
+}
+
+@keyframes p-clicked {
+    0% {
+        transform: translate(23px, -100px);
+    }
+    20% {
+        transform: translate(23px, -120px);
+    }
+    40% {
+        transform: translate(23px, -100px);
+    }
+    60% {
+        transform: translate(23px, -140px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(23px, -100px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*==================================================*/
+/*==================================================*/
+/*==================================================*/
+/*Буква А при клике*/
+
+.container1:active .svg-a{
+    animation: a-clicked 2.5s ease-in-out forwards;
+}
+
+@keyframes a-clicked {
+    0% {
+        transform: translate(-23px, -60px);
+    }
+    20% {
+        transform: translate(-23px, -40px);
+    }
+    40% {
+        transform: translate(-23px, -60px);
+    }
+    60% {
+        transform: translate(-23px, -20px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(-23px, -60px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*==================================================*/
+/*==================================================*/
+/*Message*/
+
+.message {
+    opacity: 0;
+}
+
+.message img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.message div {
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    font-size: 30px;
+}
+
+.container1:active .message{
+    animation: bg-active 2.5s ease-in-out forwards;
+}
+
+@keyframes bg-active {
+    80%{
+        transform: translate(-60px, 0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+/*==================================================*/
+/*==================================================*/
+/*Эффект сепии*/
+
+.container1:active{
+    animation: sepia 2.5s ease-in-out forwards;
+}
+
+@keyframes sepia {
+    95%{
+        filter: sepia(0%);
+        opacity: 0.5;
+    }
+    100%{
+        filter: sepia(100%);
+        opacity: 1;
+    }
+}

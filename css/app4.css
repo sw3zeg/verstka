@@ -1,0 +1,13 @@
+.active {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.content1{
+    width: 60vw;
+    height: 74vh;
+
+    background-color: #92dd80;
+}
