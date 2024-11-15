@@ -14,14 +14,9 @@ body{
     display: flex;
     flex-direction: column;
 
-
     position: relative;
     left: 20vw;
 }
-
-
-
-
 
 
 /*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
@@ -234,10 +229,22 @@ body{
 /*Projects*/
 
 .project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 20vw;
     height: 20vh;
-    background-color: chartreuse;
+    background-color: #787878;
     margin-top: 0.5vh;
+}
+
+.project a {
+    all: unset;
+}
+
+.project a:hover {
+    border-bottom: 1px solid black;
 }
 
 /*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
@@ -268,12 +275,7 @@ body{
 /*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
 /*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
 
-
-
-
-
-
-
+/*CONTENT*/
 
 .content{
     width: 60vw;
@@ -371,7 +373,8 @@ body{
 
 
 
-
+/*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
+/*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
 
 
 
