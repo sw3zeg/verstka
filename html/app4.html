@@ -8,65 +8,51 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-        <div class="brand">
-            <a href="../index.html" class="logo">
-                <div class="p2"></div>
-                <div class="p1"></div>
-                <div class="p3"></div>
-                <div class="p4"></div>
-                <div class="p5"></div>
-            </a>
-            <div class="title">
-                KeySpace
+    <div class="container">
+        <div class="header">
+            <div class="brand">
+                <a href="../index.html"><img src="../src/logo.svg" alt=""></a>
+                <div class="title">
+                    KeySpace
+                </div>
+            </div>
+            <div class="menu_button">
+                <img src="../src/menu.svg" alt="menu">
             </div>
         </div>
-        <div class="menu_button">
-            <img src="../src/menu.svg" alt="menu">
+
+        <div class="menu">
+            <a class="project" href="app2.html">Задание 2</a>
+            <a class="project" href="app3.html">Задание 3</a>
+            <a class="project" href="app4.html">Задание 4</a>
+            <a class="project" href="app5.html">Задание 5</a>
+        </div>
+
+        <div class="content1">
+            <div>
+                <input type="range" id="slider" min="0" max="200" value="100">
+                <span id="sliderValue">_</span>
+            </div>
+
+            <div>
+                <button id="path">Задать растояние</button>
+                <span id="pathValue">_</span>
+            </div>
+
+            <div>
+                <img id="car" src="../src/car.png" alt="">
+                <img id="moto" src="../src/moto.png" alt="">
+            </div>
+
+            <div id="imageContainer"></div>
+        </div>
+
+        <div id="test" class="footer">
+            <div>Contacts: petrov3.aa@edu.spbstu.ru</div>
+            <div>Copyright © Петров Андрей, 2024. Все права защищены.</div>
         </div>
     </div>
 
-    <div class="menu">
-        <div class="project">
-            <a href="app2.html">Задание 2</a>
-        </div>
-        <div class="project">
-            <a href="app3.html">Задание 3</a>
-        </div>
-        <div class="project">
-            <a href="app4.html">Задание 4</a>
-        </div>
-        <div class="project">
-            <a href="app5.html">Задание 5</a>
-        </div>
-    </div>
-
-
-    <div class="content1">
-        <div>
-            <input type="range" id="slider" min="0" max="200" value="100">
-            <span id="sliderValue">_</span>
-        </div>
-
-        <div>
-            <button id="path">Задать растояние</button>
-            <span id="pathValue">_</span>
-        </div>
-
-        <div>
-            <img id="car" src="../src/car.png" alt="">
-            <img id="moto" src="../src/moto.png" alt="">
-        </div>
-
-        <div id="imageContainer"></div>
-    </div>
-</div>
-
-<div id="test" class="footer">
-    <div>Contacts: petrov3.aa@edu.spbstu.ru</div>
-    <div>Copyright © Петров Андрей, 2024. Все права защищены.</div>
-</div>
 
     <script src="../js/main.js"></script>
     <script src="../js/app4.js"></script>

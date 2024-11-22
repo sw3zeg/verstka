@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: rgba(223, 223, 223, 0.31);
 }
 
 /*Общий контеинер*/

@@ -9,7 +9,7 @@ body{
 
 
 .container{
-    width: 60vw;
+    width: 40vw;
     min-height: 100vh;
 
     display: flex;
@@ -132,6 +132,7 @@ body{
     width: 58vw;
     height: 88vh;
     bottom: 2vh;
+    left: 21vw;
 
     justify-content: center;
     align-items: center;
@@ -174,22 +175,23 @@ hr{
 /*Projects*/
 
 .project{
+    all: unset;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: White;
+    text-decoration: none;
 
-    width: 20vw;
-    height: 20vh;
+    width: 40%;
+    height: 15%;
     background-color: #787878;
-    margin-top: 0.5vh;
+    margin-top: 2%;
+    border-radius: 10px;
 }
 
-.project a {
-    all: unset;
-}
 
-.project a:hover {
-    border-bottom: 1px solid black;
+.project:hover {
+    background-color: #464646;
 }
 
 /*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
@@ -198,13 +200,10 @@ hr{
 /*FOOTER*/
 
 .footer{
-    /*position: absolute;
-    bottom: 10px;
-    left: 20vw;*/
     position: relative;
-    /* left: 20vw; */
 
-    min-height: 120px;
+    max-height: 20vh;
+    min-height: 10vh;
     width: 60vw;
 
     display: flex;
@@ -367,3 +366,8 @@ hr{
     }
 }
 
+@media (max-height: 500px) {
+    .footer{
+        font-size: 8px;
+    }
+}
