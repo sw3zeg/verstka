@@ -159,6 +159,12 @@
 }
 
 
+.answer:hover{
+    border: 5px solid rgba(70, 70, 70, 0.93);
+    transition: border-color 0.5s ease;
+}
+
+
 /*DESCRIPTION*/
 .description{
     padding: 0 10px;

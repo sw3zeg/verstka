@@ -283,6 +283,7 @@ const CreateNextQuestionBlock = async () => {
     // Добавляю обработчикки для вариантов ответа
     document.getElementsByClassName("answer1")[currentQuestion]
         .onclick = async function() {
+            // this.style.padding = "0 20px"; Не стал делать, не красиво
             await MakeChose(1)
         };
 
