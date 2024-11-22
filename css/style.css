@@ -10,9 +10,11 @@ body{
 
 .container{
     width: 60vw;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     position: relative;
     left: 20vw;
@@ -29,6 +31,7 @@ body{
 .header{
     width: 60vw;
     height: 80px;
+    max-height: 20vh;
 
     display: flex;
     flex-direction: row;
@@ -38,6 +41,7 @@ body{
     top: 0;
 
     background-color: rgba(128, 128, 128, 0.3);
+    z-index: 105;
 }
 
 
@@ -50,7 +54,16 @@ body{
     width: 60vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
 
+/*LOGO*/
+
+.brand img {
+
+    height: 60px;
+    max-height: 15vh;
+    margin: auto 2.5vh;
 }
 
 /*TITLE*/
@@ -58,84 +71,14 @@ body{
 .title{
     width: 150px;
     height: 80px;
+    max-height: 15vh;
+    margin: auto 0;
 
     display: flex;
     justify-content: left;
     align-items: center;
 
     font-size: 20px;
-
-}
-
-
-/*=====|=====|=====|=====|=====|=====|=====|=====|=====|=====*/
-
-/*LOGO*/
-
-
-.logo{
-
-    position: relative;
-    width: 100px;
-    height: 60px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-    top: 5px;
-    left: 10px;
-
-}
-
-.logo .p1{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-
-    clip-path: polygon(20% 0%, 80% 0%, 80% 60%, 20% 60%);
-    background-color: #5a5a5a;
-}
-
-.logo .p2{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-
-    clip-path: polygon(20% 0%, 80% 0%, 95% 20%, 100% 100%, 0% 100%, 5% 20%);
-    background-color: #515151;
-}
-
-.logo .p3{
-    position: absolute;
-    width: 10px;
-    height: 15px;
-
-    top: 2px;
-    left: 15px;
-    border: 3px solid #8c8c8c;
-    border-radius: 50%;
-    clip-path: polygon(0% 0%, 60% 0%, 70% 100%, 0% 100%);
-}
-
-.logo .p4{
-    position: absolute;
-    width: 5px;
-    height: 7px;
-
-    top: 18px;
-    left: 33px;
-    border: 3px solid #8c8c8c;
-    border-radius: 50%;
-    clip-path: polygon(0% 0%, 60% 0%, 70% 100%, 0% 100%);
-}
-
-.logo .p5{
-
-    position: absolute;
-    width: 40px;
-    height: 22px;
-
-    top: 37px;
-    left: 10px;
-    background: repeating-linear-gradient(
-            -45deg, #515151, #515151 3px, #464646 3px, #464646 6px  );
 }
 
 
@@ -152,6 +95,7 @@ body{
     justify-content: center;
     align-items: center;
 
+    z-index: 110;
 }
 
 .menu_button img {
@@ -199,8 +143,9 @@ body{
     z-index: 100;
 }
 
-.menu hr{
-    width: 30vw;
+hr{
+    background-color: aquamarine;
+    max-width: 50vw;
     color: black;
 }
 
@@ -257,7 +202,7 @@ body{
     bottom: 10px;
     left: 20vw;*/
     position: relative;
-    left: 20vw;
+    /* left: 20vw; */
 
     min-height: 120px;
     width: 60vw;
@@ -295,6 +240,7 @@ body{
 
 .fragment{
     width: 1100px;
+    margin-bottom: 20px;
 
 }
 
