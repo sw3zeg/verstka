@@ -81,15 +81,17 @@
 }
 
 #words_input{
+    all: unset;
+
     width: 60%;
     height: 60%;
-
-    all: unset;
 
     background-color: rgba(140, 140, 140, 0.8);
 }
 
 #add_words_button{
+    all: unset;
+
     width: 20%;
     height: 60%;
 
@@ -97,7 +99,6 @@
     align-items: center;
     justify-content: center;
 
-    all: unset;
     overflow: hidden;
 
     background-color: rgba(140, 140, 140, 0.8);
