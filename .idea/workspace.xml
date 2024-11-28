@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6228f164-1a3a-471e-bb99-dc70164470cf" name="Changes" comment="" />
+    <list default="true" id="6228f164-1a3a-471e-bb99-dc70164470cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/app6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/app6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/app2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/app3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app4.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/app4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app5.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/app5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -65,7 +83,9 @@
       <workItem from="1732275175885" duration="5539000" />
       <workItem from="1732302027157" duration="13647000" />
       <workItem from="1732316229628" duration="573000" />
-      <workItem from="1732317169502" duration="5000" />
+      <workItem from="1732317169502" duration="171000" />
+      <workItem from="1732719891713" duration="1635000" />
+      <workItem from="1732776906518" duration="45070000" />
     </task>
     <servers />
   </component>
