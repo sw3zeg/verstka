@@ -111,12 +111,10 @@ DISPLAY_BLOCK.ondrop = async (event) => {
 
     let mtr_demonstration = document.getElementsByClassName(MTR_DEMONSTRATION_CLASS)
     let new_mtr = mtr_demonstration[0]
-    // console.log(new_mtr)
     new_mtr.classList.add(id)
     new_mtr.style.width = mtr_size[mtr_size.length - max_mtr - 1 + answer.length].h + 'px'
     new_mtr.style.height = mtr_size[mtr_size.length - max_mtr - 1 + answer.length].v + 'px'
 
-    // eventQueue.push(curr_mtr: new_mtr)
 
     if (answer.length >= 2){
         let curr_mtr_rect = new_mtr.getBoundingClientRect()
@@ -126,7 +124,6 @@ DISPLAY_BLOCK.ondrop = async (event) => {
 
         prev_mtr.style.zIndex = 10
         new_mtr.style.zIndex = 20
-        //console.log(max_mtr - answer.length)
 
         OpenMtr(new_mtr)
 
@@ -149,9 +146,6 @@ DISPLAY_BLOCK.ondrop = async (event) => {
             total_time += timer_time - duration
 
             if (CheckResult()){
-
-                console.log(currentLevel)
-                console.log(maxLevel)
 
                 if (currentLevel === maxLevel){
 
@@ -184,24 +178,18 @@ async function InitializeLevel(){
 
     switch(currentLevel){
         case 1:
-            console.log(111)
             max_mtr = 3
             max_color = 2
             break
         case 2:
-            console.log(222)
             max_mtr = 4
             max_color = 3
             break
         case 3:
-            console.log(333)
             max_mtr = 5
             max_color = 4
             break
     }
-
-    console.log(max_mtr)
-    console.log(max_color)
 
     await ShowMtrButtons()
     await GenerateTaskCombination()
@@ -276,8 +264,6 @@ async function StartDemonstration(){
 
 function ShowWinResultMenu(){
     RESULT_MENU.style.display = 'flex'
-    console.log(RESULT_MENU_TEXT)
-    console.log(total_time)
     RESULT_MENU_TEXT.textContent = `Поздравляю. Вы выиграли. Ваше время - ${total_time / 100}`
 
     // Добавляем новый результат
@@ -302,7 +288,6 @@ function ShowLoseResult(){
 
 function CheckResult(){
     for (let i = 0; i < max_mtr; i++) {
-        //console.log(`${result_temp[i]} - ${answer[i]}`)
         if (result_temp[i] !== answer[i]) {
             return false
         }
@@ -363,19 +348,15 @@ function ClearMtrOnDisplay(){
 
 function ShowLeadersBoard() {
 
-    console.log(1)
     let sortedResults = savedData.results.sort((a, b) => a.result - b.result)
 
     for (let i = 0; i < RESULTS.length; i++) {
         let children = RESULTS[i].children
-        console.log(sortedResults[i].username)
-        console.log(sortedResults[i].result)
         children[1].textContent = sortedResults[i].username
         children[2].textContent = sortedResults[i].result
     }
 
     LEADER_BOARD.style.display = 'flex'
-    console.log(2)
 }
 
 
@@ -460,3 +441,4 @@ function StopTimer() {
     clearInterval(timer_id);
     TIMER_FRONT.style.width = '100%'
 }
+
