@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/app7.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="brand">
+                <a href="../index.html"><img src="../src/logo.svg" alt=""></a>
+                <div class="title">
+                    KeySpace
+                </div>
+            </div>
+            <div class="menu_button">
+                <img src="../src/menu.svg" alt="menu">
+            </div>
+        </div>
+
+        <div class="menu">
+            <a class="project" href="app2.html">Задание 2</a>
+            <a class="project" href="app3.html">Задание 3</a>
+            <a class="project" href="app4.html">Задание 4</a>
+            <a class="project" href="app5.html">Задание 5</a>
+            <a class="project" href="app6.html">Задание 6</a>
+            <a class="project" href="app7.html">Курсовая работа</a>
+        </div>
+
+        <div id="main">
+
+            <div id="timer_back">
+                <div id="timer_front"></div>
+            </div>
+
+            <div id="label">LEVEL </div>
+
+            <div id="display"></div>
+            
+            <div class="board">
+                <div class="mtr_button" draggable="true">
+                    <div class="mtr mtr1">
+                        <img src="../src/m_full.svg">
+                    </div>
+                </div>
+                <div class="mtr_button" draggable="true">
+                    <div class="mtr mtr2">
+                        <img src="../src/m_full.svg">
+                    </div>
+                </div>
+                <div class="mtr_button" draggable="true">
+                    <div class="mtr mtr3">
+                        <img src="../src/m_full.svg">
+                    </div>
+                </div>
+                <div class="mtr_button" draggable="true">
+                    <div class="mtr mtr4">
+                        <img src="../src/m_full.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="startMenu">
+                <div id="gameTitle">Матрешка Саймона</div>
+                <div id="gameDescription">
+                    Игра предлагает запоминать последовательность раскрытия
+                    матрешек, каждая из которых имеет уникальный цвет.
+                    Игрок должен повторить эту последовательность, закрывая
+                    матрешки в правильном порядке, с каждым уровнем добавляя
+                    новые комбинации и увиличивается длина последовательности.
+                </div>
+                <div id="leaders">Leaders</div>
+                <div id="userInput">
+                    <input id="usernameInput" type="text" placeholder="Введите ваше имя">
+                    <span id="usernameValidation">incorrect username</span>
+                </div>
+                <div id="startGameButton">START</div>
+            </div>
+
+            <div id="leaderBoard">
+                <div class="leaderBoardTitle">Leaders of a game</div>
+
+                <div class="result">
+                    <div class="customerPosition">1</div>
+                    <div class="customer">a</div>
+                    <div class="customerResult">1</div>
+                </div>
+                <hr>
+                <div class="result">
+                    <div class="customerPosition">2</div>
+                    <div class="customer">aa</div>
+                    <div class="customerResult">2</div>
+                </div>
+                <hr>
+                <div class="result">
+                    <div class="customerPosition">3</div>
+                    <div class="customer">aaa</div>
+                    <div class="customerResult">3</div>
+                </div>
+
+                <div id="toStartMenuButton">TO START MENU</div>
+            </div>
+
+            <div class="gameMenu">
+                <div class="menuText">
+                    Вы закончили этот уровень за ?? секунд(ы)
+                </div>
+                <div class="btns">
+                    <div class="restartGameButton">RESTART</div>
+                    <div class="nextLevelButton">NEXT</div>
+                </div>
+            </div>
+
+            <div class="gameMenu">
+                <div class="menuText">
+                    Вы выиграли. Ваше время. поздравляю
+                </div>
+                <div class="btns">
+                    <div class="restartGameButton">TO START MENU</div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <div>Контакт: petrov3.aa@edu.spbstu.ru</div>
+            <div>Авторские права © Петров Андрей, 2024. Все права защищены.</div>
+        </div>
+    </div>
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/app7.js"></script>
+</body>
+</html>

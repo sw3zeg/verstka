@@ -153,7 +153,7 @@ const CleanErrorAnswers = async () => {
             // в css переменную горизонтальную величину для анимации
             if (window.innerWidth > 1300){
                 let width = answer.getBoundingClientRect().width
-                let gup = (((58 / 100) * window.innerWidth)-(width*4))/5;
+                let gup = (((60 / 100) * window.innerWidth)-(width*4))/5;
 
                 document.documentElement.style.
                 setProperty('--shift-left-distance',

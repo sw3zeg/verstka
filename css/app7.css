@@ -1,0 +1,447 @@
+
+
+#main{
+    width: 60vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #5a5a5a;
+}
+
+#timer_back{
+    width: 95%;
+    height: 5%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    background-color: #464646;
+}
+
+#timer_front{
+    width: 100%;
+    height: 80%;
+
+    background-color: #8c8c8c;
+}
+
+#label{
+    color: white;
+}
+
+#display{
+    width: 95%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    border-radius: 30px;
+    background-color: #464646;
+}
+
+.board{
+    width: 95%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mtr_demonstration{
+    margin: 40px;
+
+    position: relative;
+
+    transition: all 0.5s;
+}
+
+.mtr_button{
+    display: none;
+    width: 12.2vh;
+    height: 20vh;
+}
+
+.mtr1{}
+.mtr2{
+    filter: grayscale(100%) sepia(100%) hue-rotate(200deg) saturate(500%);
+}
+.mtr3{
+    filter: grayscale(100%) sepia(100%) hue-rotate(40deg) saturate(500%);
+}
+.mtr4{
+    filter: grayscale(100%) sepia(100%) hue-rotate(270deg) saturate(500%);
+}
+
+
+#startMenu{
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #787878;
+}
+
+#leaders{
+    min-width: 250px;
+    height: 60px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#leaders:hover{
+    transition: all 0.1s;
+    color: orange;
+    background-color: #464646;
+}
+
+#leaderBoard{
+    display: none;
+
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #787878;
+}
+
+.result{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer{
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+.customerResult{
+    width: 30%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+.customerPosition{
+    width: 10%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#leaderBoard hr{
+    min-width: 59vw;
+}
+
+.leaderBoardTitle{
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#toStartMenuButton{
+    width: 300px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#toStartMenuButton:hover{
+    transition: all 0.1s;
+    color: orange;
+    background-color: #464646;
+}
+
+#gameTitle{
+    min-width: 250px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#gameDescription{
+    padding: 20px;
+
+    max-width: 500px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: justify;
+    border-radius: 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#usernameInput{
+    all: unset;
+
+    min-width: 350px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#userInput{
+    min-width: 350px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#usernameValidation {
+    margin-top: 10px;
+    display: none;
+
+    min-width: 350px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: red;
+    background-color: #5a5a5a;
+}
+
+#startGameButton{
+    min-width: 150px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#startGameButton:hover{
+    transition: all 0.1s;
+    color: #92dd80;
+    background-color: #464646;
+}
+
+
+.gameMenu{
+    display: none;
+
+    position: absolute;
+    width: 600px;
+    height: 250px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    background-color: #787878;
+}
+
+.btns{
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.restartGameButton{
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    color: white;
+    background-color: #5a5a5a;
+}
+.restartGameButton:hover{
+    transition: all 0.1s;
+    color: orange;
+    background-color: #464646;
+}
+
+.nextLevelButton{
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    color: white;
+    background-color: #5a5a5a;
+}
+.nextLevelButton:hover{
+    transition: all 0.1s;
+    color: #92dd80;
+    background-color: #464646;
+}
+
+.menuText{
+    margin-bottom: 20px;
+
+    width: 70%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+
+#resultMenuText{
+    margin-bottom: 20px;
+
+    width: 70%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+
+.mtr{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.m_top{
+    position: absolute;
+    height: 55%;
+    left: 0;
+    top: 0;
+
+    transition: all 0.5s;
+}
+
+.m_top img{
+    pointer-events: none;
+    user-select: none;
+}
+
+.m_bot img{
+    pointer-events: none;
+    user-select: none;
+}
+
+.m_bot{
+    position: absolute;
+    height: 45%;
+    top: 55%;
+
+    transition-duration: 0.5s;
+    transition-property: all;
+}
