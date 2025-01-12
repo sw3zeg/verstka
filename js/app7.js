@@ -459,6 +459,11 @@ async function ShowMtrButtons(){
             PutOnDisplay()
         }
 
+        mtr_buttons[i].oncontextmenu  = function(event){
+            PutMtrToDisplay (event)
+            PutOnDisplay()
+        }
+
         function PutMtrToDisplay (event) {
             dataTransferId = mtr_buttons[i].children[0].classList[1]
         }
