@@ -38,7 +38,7 @@
     width: 95%;
     height: 35%;
 
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: start;
     align-items: center;
@@ -47,14 +47,16 @@
     background-color: #464646;
 }
 
-.board{
+#board{
     width: 95%;
     height: 35%;
 
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    /*background-color: #c1f3bd;*/
 }
 
 .mtr_demonstration{
@@ -445,3 +447,89 @@
     transition-duration: 0.5s;
     transition-property: all;
 }
+
+
+
+
+#startBtns{
+    width: 30vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#startSuperGame{
+    min-width: 300px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+#startSuperGame:hover{
+    transition: all 0.1s;
+    color: #92dd80;
+    background-color: #464646;
+}
+
+#superGameDisplay{
+    width: 40vh;
+    height: 40vh;
+
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: #95abee;
+}
+
+.tile{
+    width: 33.3%;
+    height: 33.3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2b75ff;
+}
+
+.tile img {
+
+    background-color: #92dd80;
+}
+
+#superGameBoard{
+    width: 50vw;
+    height: 12vh;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /*background-color: #95abee;*/
+}
+
+.tileInBoard{
+    margin-right: 10px;
+
+    width: 5vw;
+    height: 5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #c1f3bd;
+}
+
+
+

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6228f164-1a3a-471e-bb99-dc70164470cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app7.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app7.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/app7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app7.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,9 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/main/uniq/ver/1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,7 +62,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +90,11 @@
       <workItem from="1733417684286" duration="16649000" />
       <workItem from="1733476104645" duration="54540000" />
       <workItem from="1733543394857" duration="105000" />
+      <workItem from="1735249544615" duration="808000" />
+      <workItem from="1735276837450" duration="1847000" />
+      <workItem from="1736531740626" duration="8829000" />
+      <workItem from="1736592515478" duration="43401000" />
+      <workItem from="1736680487267" duration="7025000" />
     </task>
     <servers />
   </component>

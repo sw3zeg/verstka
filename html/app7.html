@@ -38,8 +38,15 @@
             <div id="label">LEVEL </div>
 
             <div id="display"></div>
-            
-            <div class="board">
+
+
+
+            <div id="superGameDisplay">
+
+            </div>
+
+
+            <div id="board">
                 <div class="mtr_button" draggable="true">
                     <div class="mtr mtr1">
                         <img src="../src/m_full.svg">
@@ -62,21 +69,30 @@
                 </div>
             </div>
 
+            <div id="superGameBoard">
+
+            </div>
+
             <div id="startMenu">
                 <div id="gameTitle">Матрешка Саймона</div>
                 <div id="gameDescription">
-                    Игра предлагает запоминать последовательность раскрытия
-                    матрешек, каждая из которых имеет уникальный цвет.
-                    Игрок должен повторить эту последовательность, закрывая
-                    матрешки в правильном порядке, с каждым уровнем добавляя
-                    новые комбинации и увиличивается длина последовательности.
+                    - Обычная игра - на запоминание цветов матрешек с постепенным
+                    увеличением количества цветов и длины последовательности.
+                    Обрабатывает разные события (клик, даблклик, drag and drop). <BR>
+                    - Супер-игра - пазл матрешки. <BR>
+                    - Чтобы начать игру, необходимов ввести ник. <BR>
+                    - Таблица лидеров работает, если 3 раза записать рекорд в обычном режиме.
                 </div>
                 <div id="leaders">Leaders</div>
                 <div id="userInput">
                     <input id="usernameInput" type="text" placeholder="Введите ваше имя">
                     <span id="usernameValidation">incorrect username</span>
                 </div>
-                <div id="startGameButton">START</div>
+
+                <div id="startBtns">
+                    <div id="startGameButton">START</div>
+                    <div id="startSuperGame">START SUPER GAME</div>
+                </div>
             </div>
 
             <div id="leaderBoard">
@@ -121,7 +137,6 @@
                     <div class="restartGameButton">TO START MENU</div>
                 </div>
             </div>
-
 
         </div>
 
