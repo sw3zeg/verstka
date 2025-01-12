@@ -62,6 +62,8 @@ let needDelete = false
 let prevTile
 let indexByLink = {}
 
+//local storage get data
+let savedData = JSON.parse(localStorage.getItem('gameResults')) || { results: [] };
 
 
 LEADERS_BUTTON.onclick = ShowLeadersBoard
@@ -763,8 +765,6 @@ SUPER_GAME_BOARD.ondragover = (event) => {
 SUPER_GAME_BOARD.ondrop = (event) => {
 
     let link = event.dataTransfer.getData('link')
-
-
 
     if (link === "") {
         needReplace = true
